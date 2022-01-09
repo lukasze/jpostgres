@@ -12,6 +12,18 @@ import password from 'app/modules/account/password/password.reducer';
 import settings from 'app/modules/account/settings/settings.reducer';
 import passwordReset from 'app/modules/account/password-reset/password-reset.reducer';
 import sessions from 'app/modules/account/sessions/sessions.reducer';
+// prettier-ignore
+import country from 'app/entities/country/country.reducer';
+// prettier-ignore
+import uNrepresentative from 'app/entities/u-nrepresentative/u-nrepresentative.reducer';
+// prettier-ignore
+import car from 'app/entities/car/car.reducer';
+// prettier-ignore
+import enginier from 'app/entities/enginier/enginier.reducer';
+// prettier-ignore
+import student from 'app/entities/student/student.reducer';
+// prettier-ignore
+import course from 'app/entities/course/course.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const rootReducer = {
@@ -26,6 +38,12 @@ const rootReducer = {
   password,
   settings,
   sessions,
+  country,
+  uNrepresentative,
+  car,
+  enginier,
+  student,
+  course,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
 };
